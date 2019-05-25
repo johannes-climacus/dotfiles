@@ -1,20 +1,26 @@
 " general settings
 colorscheme paramount
-set mouse=a
 set cursorline
+set list listchars=tab:>>,trail:·,precedes:←,extends:→,eol:⏎
+set mouse=a
+set splitright
 set number
 set relativenumber
-set list listchars=tab:>>,trail:·,precedes:←,extends:→,eol:⏎
+
+autocmd TermOpen * setlocal nonumber norelativenumber nocursorline
+autocmd TermOpen * :SendHere
 
 " keybindings
 map <space> <leader>
-map <leader>b :b <C-Z>
-map <leader>n :bnext <cr>
-map <leader>w :w <cr>
-map <leader>q :wq <cr>
+map <leader>b :b<space>
+map <leader>d :b#<bar>bd#<cr>
+map <leader>n :bnext<cr>
+map <leader>q :wq<cr>
+map <leader>w :w<cr>
 
 " plugin manager
 call plug#begin('~/.vim/plugged')
+Plug('mtikekar/nvim-send-to-term')
 Plug('rbong/vim-crystalline')
 Plug('tpope/vim-fugitive')
 call plug#end()
