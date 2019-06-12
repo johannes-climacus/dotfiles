@@ -1,0 +1,6 @@
+stow/emacs/.emacs.d/custom.el
+stow/emacs/.emacs.d/eshell/history
+stow/emacs/.emacs.d/eshell/lastdir
+stow/emacs/.emacs.d/straight
+stow/emacs/.emacs.d/url
+stow/nvim/.config/nvim/plugged
