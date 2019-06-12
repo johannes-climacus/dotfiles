@@ -7,11 +7,12 @@ Use GNU Stow to farm out symlinks that configure useful tools.
 The goal of this setup is to maximize utility and portability,
 while minimizing configuration.
 
-| Function          | Tool                                      |
-|-------------------|-------------------------------------------|
-| Terminal emulator | [kitty](https://sw.kovidgoyal.net/kitty/) |
-| Interactive shell | [fish](https://fishshell.com/)            |
-| Text editor       | [neovim](https://neovim.io/)              |
+| Function                | Tool                                      |
+|-------------------------|-------------------------------------------|
+| Terminal emulator       | [kitty](https://sw.kovidgoyal.net/kitty/) |
+| Interactive shell       | [fish](https://fishshell.com/)            |
+| Text editor             | [neovim](https://neovim.io/)              |
+| Programming environment | [emacs](https://gnu.org/software/emacs/)  |
 
 ## Install
 
